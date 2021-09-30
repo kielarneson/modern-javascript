@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/kielarneson/modern-javascript#readme",
   "dependencies": {
+    "mathjs": "^9.5.0",
     "moment": "^2.29.1"
   },
   "devDependencies": {
