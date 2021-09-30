@@ -1,5 +1,6 @@
 var moment = require("moment");
 var math = require("mathjs");
+const { number } = require("mathjs");
 
 console.log("Hello from JS");
 
@@ -17,3 +18,13 @@ function f(x, ...y) {
   return x * y.length;
 }
 console.log(f(3, "hello", true, "bye"));
+
+var numbers = [1, 2, 3, 4];
+
+var index = 0;
+var sum = 0;
+while (index < numbers.length) {
+  sum += numbers[index];
+  index += 1;
+}
+console.log(sum);
